@@ -1,0 +1,39 @@
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navItem {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 197, 109);
+}
+.footer {
+  position: lift;
+  left: 0;
+  bottom: 0;
+  width: 10%;
+  background-color: rgb(0, 244, 159);
+  color: rgb(12, 4, 254);
+  text-align: left;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 157, 0),
+    rgb(0, 247, 255)
+  );
+}
